@@ -1,6 +1,4 @@
-# Laravel Lightspeed Seoshop API Wrapper
-
-## WIP - in progress and finished soon ... check back! or contribute ;-)
+# Laravel 5 Lightspeed Seoshop API Wrapper
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![StyleCI](https://styleci.io/repos/58305903/shield?branch=master)](https://styleci.io/repos/75090664)
@@ -86,14 +84,6 @@ return [
 ```
 
 Read the [Lightspeed API docs](http://developers.lightspeedhq.com/retail/introduction/introduction/) to learn on how to set the correct values and api keys.
-
-## Usage
-
-### Sample 1
-
-### Sample 2
-
-## Testing
 
 ## Contributing
 
