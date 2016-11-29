@@ -89,10 +89,6 @@ Read the [Lightspeed API docs](http://developers.lightspeedhq.com/retail/introdu
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security
-
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
-
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
