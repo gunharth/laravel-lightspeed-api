@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Gunharth\\Lighspeed\\": "src"
+            "Gunharth\\Lightspeed\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gunharth\\Lighspeed\\Test\\": "tests"
+            "Gunharth\\Lightspeed\\Test\\": "tests"
         }
     },
     "scripts": {
