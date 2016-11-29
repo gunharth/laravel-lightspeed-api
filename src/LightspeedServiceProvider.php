@@ -12,7 +12,7 @@ class LightspeedServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/lighspeed-api.php' => config_path('lightspeed-api.php'),
+            __DIR__.'/../config/lightspeed-api.php' => config_path('lightspeed-api.php'),
         ], 'config');
     }
 
