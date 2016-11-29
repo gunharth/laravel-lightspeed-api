@@ -21,6 +21,8 @@ $products = ShopApi::products()->get(null, array('page' => 1, limit' => 100));
 $productInfo = ShopApi::products()->get(1);
 ```
 
+Consult the [Lightspeed API docs](http://developers.lightspeedhq.com/retail/introduction/introduction/) for all of the API options.
+
 ## Installation
 
 Install the package via composer:
