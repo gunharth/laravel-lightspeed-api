@@ -3,7 +3,7 @@
 ## WIP
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![StyleCI](https://styleci.io/repos/58305903/shield?branch=master)](https://styleci.io/repos/58305903)
+[![StyleCI](https://styleci.io/repos/58305903/shield?branch=master)](https://styleci.io/repos/75090664)
 
 This package makes working with the Lightspeed SeoShop API a breeze. Once installed you can perform all API calls like so:
 
