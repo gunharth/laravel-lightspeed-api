@@ -3,7 +3,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![StyleCI](https://styleci.io/repos/58305903/shield?branch=master)](https://styleci.io/repos/75090664)
 
-This package makes working with the Lightspeed SeoShop API a breeze. Once installed you can perform all API calls like so:
+This package makes working with the Lightspeed eCom API a breeze. Once installed you can perform all API calls like so:
 
 ```php
 use ShopApi;
@@ -21,7 +21,7 @@ $products = ShopApi::products()->get(null, array('page' => 1, limit' => 100));
 $productInfo = ShopApi::products()->get(1);
 ```
 
-Consult the [Lightspeed API docs](http://developers.lightspeedhq.com/retail/introduction/introduction/) for all of the API options.
+Consult the [Lightspeed eCom API docs](http://developers.lightspeedhq.com/ecom/introduction/introduction/) for all of the API options.
 
 ## Installation
 
@@ -85,7 +85,7 @@ return [
 ];
 ```
 
-Read the [Lightspeed API docs](http://developers.lightspeedhq.com/retail/introduction/introduction/) to learn on how to set the correct values and api keys.
+Read the [Lightspeed eCom API docs](http://developers.lightspeedhq.com/ecom/introduction/introduction/) to learn on how to set the correct values and api keys.
 
 ## Contributing
 
