@@ -12,7 +12,7 @@ use ShopApi;
 $shopInfo = ShopApi::shop()->get();
 
 //retrieve all products
-$products = ShopApi::products()->get(null, array('limit' => 200));
+$products = ShopApi::products()->get(); // Note: by default the API spits out 50 items with a max of 250
 
 // with params
 $products = ShopApi::products()->get(null, array('page' => 1, limit' => 100));
