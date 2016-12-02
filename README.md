@@ -11,11 +11,11 @@ use ShopApi;
 // shop info
 $shopInfo = ShopApi::shop()->get();
 
-//retrieve all products
+// retrieve all products
 $products = ShopApi::products()->get(); // Note: by default the API spits out 50 items with a max of 250
 
 // with params
-$products = ShopApi::products()->get(null, array('page' => 1, limit' => 100));
+$products = ShopApi::products()->get(null, array('page' => 1, 'limit' => 100));
 
 // product info with id
 $productInfo = ShopApi::products()->get(1);
