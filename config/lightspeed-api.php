@@ -18,7 +18,7 @@ return [
     'api_secret' => '',
 
     /*
-     * Lightspeed Locale
+     * Lightspeed Default API Language
      */
     'locale' => '',
 
