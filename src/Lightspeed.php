@@ -13,7 +13,7 @@ class Lightspeed
     }
 
     /**
-     * API Language Setter
+     * API Language Setter.
      */
     public function setApiLanguage($apiLanguage)
     {
@@ -21,7 +21,7 @@ class Lightspeed
     }
 
     /**
-     * API Resources
+     * API Resources.
      */
     public function account()
     {
