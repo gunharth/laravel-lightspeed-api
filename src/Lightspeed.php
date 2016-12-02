@@ -12,6 +12,17 @@ class Lightspeed
         $this->api = new \WebshopappApiClient($config['cluster_id'], $config['api_key'], $config['api_secret'], $config['locale']);
     }
 
+    /**
+     * API Language Setter
+     */
+    public function setApiLanguage($apiLanguage)
+    {
+        return $this->api->setApiLanguage($apiLanguage);
+    }
+
+    /**
+     * API Resources
+     */
     public function account()
     {
         return $this->api->account;
@@ -30,11 +41,6 @@ class Lightspeed
     public function accountRatelimit()
     {
         return $this->api->accountRatelimit;
-    }
-
-    public function accountRequests()
-    {
-        return $this->api->accountRequests;
     }
 
     public function additionalcosts()
@@ -162,6 +168,11 @@ class Lightspeed
         return $this->api->customersMetafields;
     }
 
+    public function customersTokens()
+    {
+        return $this->api->customersTokens;
+    }
+
     public function dashboard()
     {
         return $this->api->dashboard;
@@ -170,6 +181,11 @@ class Lightspeed
     public function deliverydates()
     {
         return $this->api->deliverydates;
+    }
+
+    public function discountrules()
+    {
+        return $this->api->discountrules;
     }
 
     public function discounts()
@@ -440,6 +456,11 @@ class Lightspeed
     public function taxes()
     {
         return $this->api->taxes;
+    }
+
+    public function taxesOverrides()
+    {
+        return $this->api->taxesOverrides;
     }
 
     public function textpages()
