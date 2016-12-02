@@ -19,6 +19,9 @@ $products = ShopApi::products()->get(null, array('page' => 1, limit' => 100));
 
 // product info with id
 $productInfo = ShopApi::products()->get(1);
+
+// to change the API language
+ShopApi::setApiLanguage('de');
 ```
 
 Consult the [Lightspeed eCom API docs](http://developers.lightspeedhq.com/ecom/introduction/introduction/) for all of the API options.
