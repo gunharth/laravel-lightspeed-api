@@ -1,5 +1,6 @@
 # Laravel 5 Lightspeed Seoshop API Wrapper
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/gunharth/laravel-lightspeed-api.svg?style=flat-square)](https://packagist.org/packages/gunharth/laravel-lightspeed-api)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![StyleCI](https://styleci.io/repos/58305903/shield?branch=master)](https://styleci.io/repos/75090664)
 
