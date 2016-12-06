@@ -21,7 +21,7 @@
     "require": {
         "php" : "^7.0",
         "illuminate/support": "^5.2.8",
-        "seoshop/seoshop-php": "~1.8"
+        "seoshop/seoshop-php": "^1.8"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.3.4",
@@ -31,13 +31,5 @@
         "psr-4": {
             "Gunharth\\Lightspeed\\": "src"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Gunharth\\Lightspeed\\Test\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
     }
 }
