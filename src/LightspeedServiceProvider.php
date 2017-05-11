@@ -25,6 +25,7 @@ class LightspeedServiceProvider extends ServiceProvider
 
         $this->app->singleton(Lightspeed::class, function ($app) {
             $config = $app['config']['lightspeed-api'];
+
             return new Lightspeed($config);
         });
 
