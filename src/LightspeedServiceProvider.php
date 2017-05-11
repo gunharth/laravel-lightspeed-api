@@ -23,8 +23,11 @@ class LightspeedServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/../config/lightspeed-api.php', 'lightspeed-api');
 
-        $this->app['lightspeedapi'] = $this->app->share(function ($app) {
-            return new Lightspeed($app['config']['lightspeed-api']);
+        $this->app->singleton(Lightspeed::class, function ($app) {
+            $config = $app['config']['lightspeed-api'];
+            return new Lightspeed($config);
         });
+
+        $this->app->alias(Lightspeed::class, 'lightspeedapi');
     }
 }
